@@ -26,6 +26,7 @@ for an example: Thumbnail, Song name, Artist etc..
 >[!TIP]
 >If you want your files to be clean i sugest first moving the script to a hidden folder and then
 >just adding the path to bashrc, i personaly have it in /home/tobias/.Programs/mp3downloader.py   
+
 If you want the program to be easily executed in the terminal just by wiritng "mp3downloader" folow these steps:  
 
     nano ~/.bashrc
