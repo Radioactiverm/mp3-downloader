@@ -7,8 +7,14 @@ This program just makes downloading music more efficient and conviniently downlo
 for an example: Thumbnail, Song name, Artist etc..
 ## ✅ | Instalation and ussage
 > [!NOTE]
-> Before doing anything ensure you have installed the latest version of **yt-dlp** on your machine.
-> You can do so by executing "sudo apt install yt-dlp" in your Terminal Emulator
+> Before doing anything ensure you have installed the latest version of **yt-dlp** on your machiney using curl.
+
+### Installing yt-dlp:
+
+    sudo apt remove yt-dlp # make sure its not installed using apt
+    sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+    sudo chmod a+rx /usr/local/bin/yt-dlp
+
 ### Downloading:
 
     sudo git clone https://github.com/Radioactiverm/mp3-downloader && cd mp3-downloader
