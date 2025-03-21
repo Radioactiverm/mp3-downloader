@@ -12,6 +12,7 @@ for an example: Thumbnail, Song name, Artist etc..
 ### Downloading:
 
     sudo git clone https://github.com/Radioactiverm/mp3-downloader && cd mp3-downloader
+    chmod +x mp3downloader.py
 
 ### Ussage:
 
@@ -20,3 +21,22 @@ for an example: Thumbnail, Song name, Artist etc..
 > [!WARNING]
 > Make sure that you have installed:  
 > yt-dlp , python3
+
+## ✴️ | System integration
+If you want the program to be easily executed in the terminal just by wiritng "mp3downloader" folow these steps:  
+
+    nano ~/.bashrc
+
+And add this line at the end of the file:
+
+    alias mp3downloader="python3 /path/to/your/mp3downloader.py"
+
+Example path:  
+/home/tobias/Downloads/mp3-downloader/mp3downloader.py  
+Now execute this to reload the config file:
+
+    source ~/.bashrc
+
+Test by writing:
+
+    mp3downloader
