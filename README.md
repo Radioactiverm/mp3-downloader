@@ -27,12 +27,12 @@ If you want the program to be easily executed in the terminal just by wiritng "m
 
     nano ~/.bashrc
 
-And add this line at the end of the file:
+And add this line with your path at the end of the file:  
+Example path:  
+/home/tobias/Downloads/mp3-downloader/mp3downloader.py  
 
     alias mp3downloader="python3 /path/to/your/mp3downloader.py"
 
-Example path:  
-/home/tobias/Downloads/mp3-downloader/mp3downloader.py  
 Now execute this to reload the config file:
 
     source ~/.bashrc
@@ -40,3 +40,6 @@ Now execute this to reload the config file:
 Test by writing:
 
     mp3downloader
+
+> [!NOTE]
+> I will be updating this program as well as this README.md to add more features and showcases!
