@@ -11,12 +11,12 @@ for an example: Thumbnail, Song name, Artist etc..
 > You can do so by executing "sudo apt install yt-dlp" in your Terminal Emulator
 ### Downloading:
 
-  sudo git clone https://github.com/Radioactiverm/mp3-downloader && cd mp3-downloader
+    sudo git clone https://github.com/Radioactiverm/mp3-downloader && cd mp3-downloader
 
 ### Ussage:
 
-  sudo python3 mp3downloader.py
+    sudo python3 mp3downloader.py
 
 > [!WARNING]
 > Make sure that you have installed:  
-> yt-dlp,python3
+> yt-dlp , python3
