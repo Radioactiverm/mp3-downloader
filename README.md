@@ -17,6 +17,6 @@ for an example: Thumbnail, Song name, Artist etc..
 
   sudo python3 mp3downloader.py
 
->.[!WARNING]
-> Make sure that you have installed:
-> 'yt-dlp','python3'
+> [!WARNING]
+> Make sure that you have installed:  
+> yt-dlp,python3
