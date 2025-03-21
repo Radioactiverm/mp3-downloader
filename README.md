@@ -11,7 +11,8 @@ for an example: Thumbnail, Song name, Artist etc..
 
 ### Installing yt-dlp:
 
-    sudo apt remove yt-dlp # make sure its not installed using apt
+    #make sure its not installed using apt
+    sudo apt remove yt-dlp
     sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
     sudo chmod a+rx /usr/local/bin/yt-dlp
 
@@ -25,8 +26,8 @@ for an example: Thumbnail, Song name, Artist etc..
     sudo python3 mp3downloader.py
 
 > [!WARNING]
-> Make sure that you have installed:  
-> yt-dlp , python3
+>  If you have any problems make sure that you have installed:  
+> yt-dlp , python3 , curl , git
 
 ## ✴️ | System integration
 >[!TIP]
