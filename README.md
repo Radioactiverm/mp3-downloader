@@ -29,7 +29,7 @@ for an example: Thumbnail, Song name, Artist etc..
 >  If you have any problems make sure that you have installed:  
 > yt-dlp , python3 , curl , git
 
-## ✴️ | System integration
+## ✴️ | System integration (optional)
 >[!TIP]
 >If you want your files to be clean i sugest first moving the script to a hidden folder and then
 >just adding the path to bashrc, i personaly have it in /home/tobias/.Programs/mp3downloader.py   
