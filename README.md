@@ -7,7 +7,7 @@ This program just makes downloading music more efficient and conviniently downlo
 for an example: Thumbnail, Song name, Artist etc..
 ## ✅ | Instalation and ussage
 > [!NOTE]
-> Before doing anything ensure you have installed the latest version of **yt-dlp** on your machiney using curl.
+> Before doing anything ensure you have installed the latest version of **yt-dlp** on your machine using curl.
 
 ### Installing yt-dlp:
 
